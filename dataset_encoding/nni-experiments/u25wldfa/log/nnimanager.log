@@ -1,0 +1,97 @@
+[2022-07-05 11:52:09] INFO (NNIDataStore) Datastore initialization done
+[2022-07-05 11:52:09] INFO (RestServer) RestServer start
+[2022-07-05 11:52:09] WARNING (NNITensorboardManager) Tensorboard may not installed, if you want to use tensorboard, please check if tensorboard installed.
+[2022-07-05 11:52:09] INFO (RestServer) RestServer base port is 6006
+[2022-07-05 11:52:09] INFO (main) Rest server listening on: http://0.0.0.0:6006
+[2022-07-05 11:52:10] INFO (NNIManager) Starting experiment: u25wldfa
+[2022-07-05 11:52:10] INFO (NNIManager) Setup training service...
+[2022-07-05 11:52:10] INFO (LocalTrainingService) Construct local machine training service.
+[2022-07-05 11:52:10] INFO (NNIManager) Setup tuner...
+[2022-07-05 11:52:10] INFO (NNIManager) Change NNIManager status from: INITIALIZED to: RUNNING
+[2022-07-05 11:52:10] INFO (NNIManager) Add event listeners
+[2022-07-05 11:52:10] INFO (LocalTrainingService) Run local machine training service.
+[2022-07-05 11:52:10] INFO (NNIManager) NNIManager received command from dispatcher: ID, 
+[2022-07-05 11:52:10] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 0, "parameter_source": "algorithm", "parameters": {"vth": 4.5}, "parameter_index": 0}
+[2022-07-05 11:52:15] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 0,
+  hyperParameters: {
+    value: '{"parameter_id": 0, "parameter_source": "algorithm", "parameters": {"vth": 4.5}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-07-05 11:52:20] INFO (NNIManager) Trial job lYjKq status changed from WAITING to RUNNING
+[2022-07-05 11:53:25] INFO (NNIManager) Trial job lYjKq status changed from RUNNING to SUCCEEDED
+[2022-07-05 11:53:25] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 1, "parameter_source": "algorithm", "parameters": {"vth": 4.5}, "parameter_index": 0}
+[2022-07-05 11:53:30] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 1,
+  hyperParameters: {
+    value: '{"parameter_id": 1, "parameter_source": "algorithm", "parameters": {"vth": 4.5}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-07-05 11:53:35] INFO (NNIManager) Trial job jHj30 status changed from WAITING to RUNNING
+[2022-07-05 11:54:45] INFO (NNIManager) Trial job jHj30 status changed from RUNNING to SUCCEEDED
+[2022-07-05 11:54:45] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 2, "parameter_source": "algorithm", "parameters": {"vth": 3.5}, "parameter_index": 0}
+[2022-07-05 11:54:50] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 2,
+  hyperParameters: {
+    value: '{"parameter_id": 2, "parameter_source": "algorithm", "parameters": {"vth": 3.5}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-07-05 11:54:55] INFO (NNIManager) Trial job E3Coh status changed from WAITING to RUNNING
+[2022-07-05 11:56:00] INFO (NNIManager) Trial job E3Coh status changed from RUNNING to SUCCEEDED
+[2022-07-05 11:56:00] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 3, "parameter_source": "algorithm", "parameters": {"vth": 1.0}, "parameter_index": 0}
+[2022-07-05 11:56:05] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 3,
+  hyperParameters: {
+    value: '{"parameter_id": 3, "parameter_source": "algorithm", "parameters": {"vth": 1.0}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-07-05 11:56:11] INFO (NNIManager) Trial job Bb9Ei status changed from WAITING to RUNNING
+[2022-07-05 11:57:16] INFO (NNIManager) Trial job Bb9Ei status changed from RUNNING to SUCCEEDED
+[2022-07-05 11:57:16] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 4, "parameter_source": "algorithm", "parameters": {"vth": 3.5}, "parameter_index": 0}
+[2022-07-05 11:57:21] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 4,
+  hyperParameters: {
+    value: '{"parameter_id": 4, "parameter_source": "algorithm", "parameters": {"vth": 3.5}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-07-05 11:57:26] INFO (NNIManager) Trial job CGkx2 status changed from WAITING to RUNNING
+[2022-07-05 11:58:31] INFO (NNIManager) Trial job CGkx2 status changed from RUNNING to SUCCEEDED
+[2022-07-05 11:58:31] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 5, "parameter_source": "algorithm", "parameters": {"vth": 2.0}, "parameter_index": 0}
+[2022-07-05 11:58:36] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 5,
+  hyperParameters: {
+    value: '{"parameter_id": 5, "parameter_source": "algorithm", "parameters": {"vth": 2.0}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-07-05 11:58:41] INFO (NNIManager) Trial job BAHOk status changed from WAITING to RUNNING
+[2022-07-05 11:59:46] INFO (NNIManager) Trial job BAHOk status changed from RUNNING to SUCCEEDED
+[2022-07-05 11:59:46] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 6, "parameter_source": "algorithm", "parameters": {"vth": 0.5}, "parameter_index": 0}
+[2022-07-05 11:59:51] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 6,
+  hyperParameters: {
+    value: '{"parameter_id": 6, "parameter_source": "algorithm", "parameters": {"vth": 0.5}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-07-05 11:59:54] INFO (NNIManager) Change NNIManager status from: RUNNING to: STOPPING
+[2022-07-05 11:59:54] INFO (NNIManager) Stopping experiment, cleaning up ...
+[2022-07-05 11:59:57] INFO (NNIManager) cancelTrialJob: Y3tvd
+[2022-07-05 11:59:57] INFO (LocalTrainingService) Stopping local machine training service...
+[2022-07-05 11:59:57] INFO (NNIManager) Change NNIManager status from: STOPPING to: STOPPED
+[2022-07-05 11:59:57] INFO (NNIManager) Experiment stopped.
+[2022-07-05 11:59:57] INFO (NNITensorboardManager) Forced stopping all tensorboard task.
+[2022-07-05 11:59:57] INFO (NNITensorboardManager) All tensorboard task stopped.
+[2022-07-05 11:59:57] INFO (NNITensorboardManager) Tensorboard manager stopped.

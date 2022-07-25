@@ -1,0 +1,19 @@
+experimentname: nni_dataset_encoding
+trialCodeDirectory: .
+experimentWorkingDirectory: ./nni-experiments/
+search_space_file: search_space.json          
+trialcommand: python3 Dataset_encoding.py
+
+trial_concurrency: 1         
+max_experiment_duration: 24h                   
+max_trial_number: 1000                        
+
+tuner:
+  Name: Random
+
+
+
+training_service:
+  platform: local
+  useActiveGpu: True
+  

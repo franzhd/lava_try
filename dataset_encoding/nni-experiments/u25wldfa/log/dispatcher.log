@@ -1,0 +1,10 @@
+[2022-07-05 11:52:09] INFO (nni.experiment/MainThread) Creating experiment, Experiment ID: [36mu25wldfa[0m
+[2022-07-05 11:52:09] INFO (nni.experiment/MainThread) Starting web server...
+[2022-07-05 11:52:10] INFO (nni.experiment/MainThread) Setting up...
+[2022-07-05 11:52:10] INFO (nni.experiment/MainThread) Web UI URLs: [36mhttp://127.0.0.1:6006 http://192.168.1.168:6006 http://172.17.0.1:6006[0m
+[2022-07-05 11:52:10] INFO (nni.tools.nnictl.launcher/MainThread) To stop experiment run "nnictl stop u25wldfa" or "nnictl stop --all"
+[2022-07-05 11:52:10] INFO (nni.tools.nnictl.launcher/MainThread) Reference: https://nni.readthedocs.io/en/stable/Tutorial/Nnictl.html
+[2022-07-05 11:52:10] INFO (nni.tuner.random/MainThread) Using random seed 704366871
+[2022-07-05 11:52:10] INFO (nni.runtime.msg_dispatcher_base/MainThread) Dispatcher started
+[2022-07-05 11:59:54] INFO (nni.runtime.msg_dispatcher_base/MainThread) Dispatcher exiting...
+[2022-07-05 11:59:56] INFO (nni.runtime.msg_dispatcher_base/MainThread) Dispatcher terminiated

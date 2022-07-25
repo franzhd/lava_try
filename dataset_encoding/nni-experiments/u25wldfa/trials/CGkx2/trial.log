@@ -1,0 +1,25 @@
+[2022-07-05 11:57:27] PRINT spike tensor shape:torch.Size([784, 128])
+[2022-07-05 11:57:27] PRINT out_shape:(1, 784, 128)
+[2022-07-05 11:57:27] PRINT event shape: (1, 28, 28, 128)
+[2022-07-05 11:57:27] INFO (matplotlib.animation/MainThread) Animation.save using <class 'matplotlib.animation.PillowWriter'>
+[2022-07-05 11:57:30] INFO (matplotlib.animation/MainThread) Animation.save using <class 'matplotlib.animation.PillowWriter'>
+[2022-07-05 11:57:39] PRINT spike tensor shape:torch.Size([784, 128])
+[2022-07-05 11:57:39] PRINT out_shape:(1, 784, 128)
+[2022-07-05 11:57:39] PRINT event shape: (1, 28, 28, 128)
+[2022-07-05 11:57:40] INFO (matplotlib.animation/MainThread) Animation.save using <class 'matplotlib.animation.PillowWriter'>
+[2022-07-05 11:57:43] INFO (matplotlib.animation/MainThread) Animation.save using <class 'matplotlib.animation.PillowWriter'>
+[2022-07-05 11:57:52] PRINT spike tensor shape:torch.Size([784, 128])
+[2022-07-05 11:57:52] PRINT out_shape:(1, 784, 128)
+[2022-07-05 11:57:52] PRINT event shape: (1, 28, 28, 128)
+[2022-07-05 11:57:52] INFO (matplotlib.animation/MainThread) Animation.save using <class 'matplotlib.animation.PillowWriter'>
+[2022-07-05 11:57:55] INFO (matplotlib.animation/MainThread) Animation.save using <class 'matplotlib.animation.PillowWriter'>
+[2022-07-05 11:58:04] PRINT spike tensor shape:torch.Size([784, 128])
+[2022-07-05 11:58:04] PRINT out_shape:(1, 784, 128)
+[2022-07-05 11:58:04] PRINT event shape: (1, 28, 28, 128)
+[2022-07-05 11:58:04] INFO (matplotlib.animation/MainThread) Animation.save using <class 'matplotlib.animation.PillowWriter'>
+[2022-07-05 11:58:07] INFO (matplotlib.animation/MainThread) Animation.save using <class 'matplotlib.animation.PillowWriter'>
+[2022-07-05 11:58:16] PRINT spike tensor shape:torch.Size([784, 128])
+[2022-07-05 11:58:16] PRINT out_shape:(1, 784, 128)
+[2022-07-05 11:58:16] PRINT event shape: (1, 28, 28, 128)
+[2022-07-05 11:58:16] INFO (matplotlib.animation/MainThread) Animation.save using <class 'matplotlib.animation.PillowWriter'>
+[2022-07-05 11:58:18] INFO (matplotlib.animation/MainThread) Animation.save using <class 'matplotlib.animation.PillowWriter'>
